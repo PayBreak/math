@@ -11,17 +11,18 @@
 namespace PayBreak\Math\Algebra;
 
 /**
- * Simple Polynomial
+ * Simple Polynomial.
  *
  * @author WN
- * @package PayBreak\Math\Algebra
  */
 class Polynomial
 {
     /**
      * @author WN
+     *
      * @param float $x
      * @param array $coefficients [a0, a1, a2, ... an]
+     *
      * @return float
      */
     public static function polyArray($x, array $coefficients)
@@ -30,7 +31,6 @@ class Polynomial
         $i = 0;
 
         foreach ($coefficients as $a) {
-
             $result += pow($x, $i) * $a;
             $i++;
         }

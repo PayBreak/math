@@ -13,10 +13,9 @@ namespace Test\Algebra;
 use PayBreak\Math\Algebra\Polynomial;
 
 /**
- * Polynomial Test
+ * Polynomial Test.
  *
  * @author WN
- * @package Test\Algebra
  */
 class PolynomialTest extends \PHPUnit_Framework_TestCase
 {
@@ -24,7 +23,6 @@ class PolynomialTest extends \PHPUnit_Framework_TestCase
     {
         $this->assertSame(0.0, Polynomial::polyArray(1, []));
         $this->assertSame(0.0, Polynomial::polyArray(99, []));
-
     }
 
     public function testPolyArrayLine()
