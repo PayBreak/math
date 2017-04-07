@@ -19,6 +19,9 @@ $ composer require paybreak/math
 
 ## Components
 
+- Algebra
+    - Polynomial
+
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
